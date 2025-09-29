@@ -282,26 +282,32 @@ li {
     border: none;
 }
 
-/* Responsive Design */
+/* Project Cards */
+.project-card {
+    background: #f7faff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(30,136,229,0.08);
+    padding: 1.5rem 1rem;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-card img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(42,61,102,0.08);
+}
 @media (max-width: 700px) {
-    .grid-container {
-        padding: 1rem 0.5rem;
-    }
-    .cell {
-        padding: 1rem 0.5rem;
-    }
-    header .menu {
+    .grid-x {
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0;
     }
-    .fun-header {
-        font-size: 1.4rem;
-        padding: 0.7rem 1rem;
-    }
-    .fun-card {
-        padding: 1rem 0.5rem;
-    }
-    .fun-video-wrapper iframe {
-        height: 12.5rem;
+    .project-card {
+        margin-bottom: 2rem;
+        width: 100%;
+        max-width: 100%;
     }
 }
