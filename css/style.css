@@ -49,19 +49,18 @@ header .menu {
 }
 
 header .menu a {
-    color: #fff;
+    color: #1976d2;
     font-family: Arial, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     letter-spacing: 0.03125rem;
     padding: 0.5rem 0.75rem;
     border-radius: 0.25rem;
-    transition: background 0.2s;
+    transition: background 0.2s, color 0.2s;
 }
-
 header .menu a:hover, header .menu a:focus {
-    background: rgba(255,255,255,0.12);
-    color: #fff;
+    background: rgba(25,118,210,0.08);
+    color: #1565c0;
 }
 
 /* Container and Sections */
