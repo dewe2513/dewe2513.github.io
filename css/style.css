@@ -143,11 +143,13 @@ hr {
 .headshot {
     width: 11.25rem;
     height: 11.25rem;
-    object-fit: cover;
+    object-fit: contain;
+    background: #e3f2fd;
     border-radius: 50%;
     border: 0.3125rem solid #1976d2;
     box-shadow: 0 0.25rem 1rem rgba(25,118,210,0.10);
     margin-bottom: 0;
+    padding: 0.5rem;
 }
 .hero-content > div {
     flex: 1;
